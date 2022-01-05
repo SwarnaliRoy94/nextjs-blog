@@ -22,13 +22,24 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello! this is {name}!! I am a Software Engineer. You can contact me
-          on{" "}
+          Hello! This is {name}!! I am a Software Engineer. I have expertise in
+          React.js, React Native, TypeScript. Currently I am learning Next.js
+          and WordPress.
+        </p>
+        <p>
+          You can contact me on{" "}
           <a
             className={utilStyles.lightText}
             href="https://twitter.com/IamSwarnaliRoy"
           >
             Twitter
+          </a>
+          . You can view my projects on{" "}
+          <a
+            className={utilStyles.lightText}
+            href="https://github.com/SwarnaliRoy94"
+          >
+            GitHub
           </a>
           .
         </p>
