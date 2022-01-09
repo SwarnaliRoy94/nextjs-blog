@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 
 export const name = "Swarnali Roy";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Blog Website Home";
 
 const Layout = ({
   children,
